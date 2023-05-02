@@ -1,0 +1,32 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  table-layout: fixed;
+  align-items: center;
+  width: 700px;
+  border-collapse: collapse;
+  border: 3px solid rgb(107, 110, 112);
+}
+.data {
+  font-size: 15px;
+  width: 100%;
+}
+.thead {
+  width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: rgb(160, 174, 182);
+}
+tr {
+  display: flex;
+}
+th,
+td {
+  padding: 10px 5px;
+  width: 100%;
+  text-align: center;
+  border-right: 1px solid #000;
+}
+.dataString:nth-child(even) {
+  background-color: rgb(204, 214, 224);
+}
